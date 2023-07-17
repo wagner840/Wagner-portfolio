@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -32,12 +31,25 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+              Criando experiências por meio da tecnologia{""}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Meu nome é Wagner Guilherme sou estudante de programação na Kenzie
+              Academy Brasil, participei de diversos projetos resolvendo
+              problemas de alto nível e desenvolvendo habilidades. Sou uma
+              pessoa que gosta de desafios e de resolver problemas. Apaixonado
+              por tecnologias desde criança e sempre buscando aprender.
+              Simpatizante de Front com React-TypeScript e NodeJS. e back-end:
+              com NodeJS Ts e Python.
+            </Text>
+            <Text type="body2" color="grey6">
+              Hi, my name is Wagner Guilherme I am a programming student at
+              Kenzie Academy Brasil, I participated in several projects solving
+              high-level problems and developing skills. I am a person who likes
+              challenges and solving problems. Passionate about technologies
+              since childhood and always looking to learn. Front enthusiast with
+              React-TypeScript and NodeJS. and back-end: with NodeJS Ts and
+              Python.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
