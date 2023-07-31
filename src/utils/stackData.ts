@@ -4,8 +4,16 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaPython } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { FaNs8, FaPython } from "react-icons/fa";
+import {
+  SiDjango,
+  SiFigma,
+  SiGithub,
+  SiNextdotjs,
+  SiPostgresql,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
 
 export const stackData = [
   {
@@ -34,4 +42,28 @@ export const stackData = [
   },
   { title: "Python", img: FaPython },
   { title: "TypeScript", img: SiTypescript },
+  {
+    title: "Next JS",
+    img: SiNextdotjs,
+  },
+  {
+    title: "PostgreSQL",
+    img: SiPostgresql,
+  },
+  {
+    title: "Git",
+    img: SiGithub,
+  },
+  {
+    title: "Figma",
+    img: SiFigma,
+  },
+  {
+    title: "Django Rest Framework",
+    img: SiDjango,
+  },
+  {
+    title: "Tailwind CSS",
+    img: SiTailwindcss,
+  },
 ];
